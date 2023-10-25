@@ -1,0 +1,131 @@
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ebdede;
+    margin-bottom: 10px;
+}
+
+h1 {
+    
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+} 
+
+ img {
+    
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+} 
+
+
+#textblock {
+    
+    background-color: hsl(229.29deg 87.5% 6.27%);
+    height: 1000%;
+    position: relative;
+}
+
+#textblock-container {
+    width: 50%;
+    
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+
+#textblock-title {
+    color: #ffaf1b;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+    color: #ffaf1b;
+    font-size: 20px;
+}
+
+/* #textblock-footer {
+    color: #ffaf1b;
+    font-size: 15px;
+    font-weight: 400;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+} */
+
+/* #textblock-devsense {
+    text-decoration: none;
+    color: #ffaf1b;
+    font-size: 15px;
+    font-weight: 600;
+} */
+
+.animation,
+.animation_layer {
+    height: 1000px;
+}
+
+.animation {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.animation_layer {
+    background-position: bottom center;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+   
+    width: 100%;
+    position: relative;
+}
+
+.animation_layer.parallax {
+    position: fixed;
+}
+
+#artback {
+    background-image: url(../assets/images/background.png);
+}
+
+#mountain {
+    background-image: url(../assets/images/mountains.png);
+}
+
+#logoland {
+    background-image: url(../assets/images/logo_land.png);
+}
+
+#jungle1 {
+    background-image: url(../assets/images/jungle1.png);
+}
+
+#jungle2 {
+    background-image: url(../assets/images/jungle2.png);
+}
+
+#jungle3 {
+    background-image: url(../assets/images/jungle3.png);
+}
+
+#jungle4 {
+    background-image: url(../assets/images/jungle4.png);
+}
+
+#jungle5 {
+    background-image: url(../assets/images/jungle5.png);
+}
+
+#manonmountain {
+    background-image: url(../assets/images/man_on_mountain.png);
+}
