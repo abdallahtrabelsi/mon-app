@@ -1,5 +1,5 @@
 
-/* *::after,
+ /* *::after,
 *::before {
   margin: 0;
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 body {
   font-size: 1.6rem;
-} */
+}  */
 li {
   list-style: none;
 }
@@ -27,7 +27,7 @@ a {
   align-items: center;
   padding: 0 50px;
   position: relative;
-  z-index: 1000;
+  z-index: 1;
   transition: all 0.3s ease;
 }
 
@@ -38,13 +38,13 @@ a {
   
 }
 
-/* .nav {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 7vh;
-  background: rgb(1, 8, 15);
-} */
+  background: rgb(207, 212, 218);
+}
 .nav__brand {
   text-transform: uppercase;
 }

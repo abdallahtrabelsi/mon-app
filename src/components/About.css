@@ -1,40 +1,12 @@
-h3 {
-    font-size: 24px;
-    font-weight: 300;
-    color: #ebdede;
-    margin-bottom: 10px;
-}
-
-h1 {
-    
-    font-size: 28px;
-    font-weight: bold;
-    color: #333;
-    line-height: 1.5;
-    margin-bottom: 20px;
-} 
-
- img {
-    
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 0px;
-} 
-
-
 #textblock {
-    
-    background-color: hsl(229.29deg 87.5% 6.27%);
-    height: 1000%;
-    position: relative;
+    background-color: #210002;
+    height: 100vh;
 }
 
 #textblock-container {
     width: 50%;
-    
     margin: 0 auto;
-    padding-top: 50px;
-    
+    padding-top: 70px;
 }
 
 #textblock-title {
@@ -49,7 +21,7 @@ h1 {
     font-size: 20px;
 }
 
-/* #textblock-footer {
+#textblock-footer {
     color: #ffaf1b;
     font-size: 15px;
     font-weight: 400;
@@ -61,14 +33,14 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 
-} */
+}
 
-/* #textblock-devsense {
+#textblock-devsense {
     text-decoration: none;
     color: #ffaf1b;
     font-size: 15px;
     font-weight: 600;
-} */
+}
 
 .animation,
 .animation_layer {
@@ -77,17 +49,16 @@ h1 {
 
 .animation {
     display: block;
-    position: absolute;
-    z-index: -1;
+    position: relative;
+    z-index: 10;
 }
 
 .animation_layer {
     background-position: bottom center;
-    background-size: 100% 100%;
+    background-size: auto 1038px;
     background-repeat: repeat-x;
-   
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .animation_layer.parallax {

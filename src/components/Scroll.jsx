@@ -21,14 +21,13 @@ function Scroll() {
   ];
 
   const AppContainer = styled.div`
-  width: 98vw;
+    width: 98vw;
     height: 98vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    `;
+  `;
   return (
     <AppContainer>
       <Wrapper>

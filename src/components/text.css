@@ -1,14 +1,4 @@
-/* html,
-body {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-} */
-
-/* body {
-    background: #313131;
-} */
-
+/* 
 .marquee-w {
     background: #ffffff;
     padding: 0;
@@ -63,4 +53,16 @@ body {
     100% {
         transform: translate(-100%, 0);
     }
+} */
+
+
+
+
+.xx{
+    position: absolute;
+    font-size :88px;
+    width: 100%;
+    color: rgb(7, 100, 182);
+    padding: 280px ;
+    padding-left: 20px;
 }

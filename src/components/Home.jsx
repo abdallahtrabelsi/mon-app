@@ -4,9 +4,22 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import "./text.css";
 import ThemeContext from "./ContextWrapper/ThemeContext";
 import Header from "./Header";
-
+import Scroll1 from "./Scroll1";
+import { motion } from "framer-motion";
 import Scroll from "./Scroll";
 import Footer from "./Footer";
+const textVariants = {
+  initial: {
+    x: -500,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 0,
+    transition: 1,
+    staggerChilden: 0.1,
+  },
+};
 
 const Home = () => {
   const slides = [
@@ -53,13 +66,18 @@ const Home = () => {
           <div
             style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
             className="w-full h-full  bg-center bg-cover duration-700"
+          ></div>
+          <motion.h1
+            className="xx"
+            variants={textVariants}
+            initial="initial"
+            animate="animate"
           >
             Welcome To COSMOS Network
-          </div>
+          </motion.h1>
           {/* Left Arrow */}
           <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={30} />
-            <h1>hello</h1>
           </div>
           {/* Right Arrow */}
           <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
@@ -82,7 +100,7 @@ const Home = () => {
               Public & Media Relations | Digital Marketing | Advertising
             </span>
           </div> */}
-          <div class="marquee-w">
+          {/* <div class="marquee-w">
             <div class="marquee">
               <span>
                 Creative Development | Branding & Marketing Communications |
@@ -97,8 +115,17 @@ const Home = () => {
                 &nbsp; &nbsp; &nbsp;
               </span>
             </div>
-          </div>
-
+          </div> */}
+          {/* <motion.div
+            className="slidingTextContainer"
+            variants={slideVariants}
+            initial="initial"
+            animate="animate"
+          >
+            Creative Development | Branding & Marketing Communications | Public
+            & Media Relations | Digital Marketing | Advertising |
+          </motion.div> */}
+          <Scroll1 />
           <ThemeContext>
             <Header />
           </ThemeContext>

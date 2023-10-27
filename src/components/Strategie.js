@@ -1,13 +1,13 @@
-import React from "react"
+// import React from "react"
 
-import SmoothScroll from "./SmoothScroll/SmoothScroll"
-import Footer from "./Footer"
-import "../components/SmoothScroll/styles.scss"
+// import SmoothScroll from "./SmoothScroll/SmoothScroll"
+// import Footer from "./Footer"
+// import "../components/SmoothScroll/styles.scss"
 
 
-const Strategie = () =><> <SmoothScroll />
+// const Strategie = () =><> <SmoothScroll />
 
-<Footer/>
-</>
+// <Footer/>
+// </>
 
-export default Strategie
+// export default Strategie
